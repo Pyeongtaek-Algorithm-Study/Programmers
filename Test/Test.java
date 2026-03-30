@@ -36,11 +36,11 @@ public class UserDataHandler {
 
     // 5. 비효율적인 로직: 불필요한 객체 생성 및 낮은 가독성
     public String processString(String input) {
-        String result = "";
+        StringBuilder resultBuilder = new StringBuilder();
         for (int i = 0; i < 1000; i++) {
-            // String은 불변 객체라 반복문 내 + 연산은 성능에 좋지 않음 (StringBuilder 권장)
-            result += input + i; 
+            resultBuilder.append(input).append(i);
         }
+        return resultBuilder.toString();
         return result;
     }
 }
