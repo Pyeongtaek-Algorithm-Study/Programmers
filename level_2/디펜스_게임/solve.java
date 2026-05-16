@@ -8,6 +8,8 @@ class Solution {
             return enemy.length;
         }
 
+        int ans = 0;
+
         PriorityQueue<Integer> pq = new PriorityQueue<>(k + 1);
 
         for (int i = 0; i < enemy.length; i++) {
