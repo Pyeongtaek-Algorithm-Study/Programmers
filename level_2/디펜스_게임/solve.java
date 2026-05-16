@@ -4,9 +4,11 @@ class Solution {
 
     public int solution(int n, int k, int[] enemy) {
 
-        int ans = enemy.length;
+        if (k >= enemy.length) {
+            return enemy.length;
+        }
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>(k + 1);
 
         for (int i = 0; i < enemy.length; i++) {
 
