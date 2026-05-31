@@ -1,7 +1,7 @@
 ### Level 2 :이진 변환 반복하기
 
-문제 사이트 : [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
-알고리즘 유형 : 문자열
+- **문제 사이트** : [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
+- **알고리즘 유형** : *문자열*
 
 ---
 
