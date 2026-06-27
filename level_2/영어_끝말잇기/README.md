@@ -31,7 +31,6 @@ boolean invalidWord = preWord.charAt(preWord.length() - 1)
 if (invalidWord || !usedWords.add(curWord)) {
     return new int[] {(i % n) + 1, (i / n) + 1};
 }
-````
 
 * HashSet으로 중복 단어 검사
 * 이전 단어 마지막 문자와 현재 단어 첫 문자 비교
