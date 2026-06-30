@@ -1,4 +1,5 @@
 class Solution {
+    
     public int[] solution(int[] sequence, int k) {
         int[] answer = new int[2];
         
