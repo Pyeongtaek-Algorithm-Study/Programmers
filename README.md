@@ -9,6 +9,10 @@
 |README.md|Markdown 또는 HTML형식을 지원|https://gist.github.com/ihoneymon/652be052a0727ad59601|
 |LaTex|수식 표현은 수식부분을 $로 감싸기|https://latex.codecogs.com/eqneditor/editor.php|
 
+## README 작성 규칙
+
+- 정식 빅오 표기법[ $O(1), O(logN), O(N), O(NlogN), O(N^2), ...$ ]으로만 작성
+
 # 알고리즘 README.md 템플릿
 
 <pre><code>
@@ -17,6 +21,7 @@
 - **문제 사이트** : 
 - **Level** : 
 - **알고리즘 유형** : 
+- **시간복잡도** : 
 
 ---
 
